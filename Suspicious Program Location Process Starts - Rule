@@ -1,0 +1,1 @@
+ProcessCreationEvents | where (FolderPath endswith "\\$Recycle.bin" or FolderPath contains "\\Users\\Public\\" or FolderPath startswith "C:\\Perflogs\\" or FolderPath contains "\\Windows\\Fonts\\" or FolderPath contains "\\Windows\\IME\\" or FolderPath contains "\\Windows\\addins\\" or FolderPath contains "\\Windows\\debug\\")
